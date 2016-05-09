@@ -160,7 +160,6 @@ public class Space
                                                                         map.get(itself.get(n))); //
                                                         if (!crossPoint.isEmpty()) // 如果两个实例相交
                                                         {
-                                                                System.out.println(crossPoint);
                                                                 if (!starNeighbor.containsKey(
                                                                                 map.get(itself.get(m)).getf()))
                                                                 {
@@ -222,7 +221,6 @@ public class Space
                                                                         map.get(neighbor.get(n))); //
                                                         if (!crossPoint.isEmpty()) // 如果两个实例相交
                                                         {
-                                                                System.out.println(crossPoint);
                                                                 if (!starNeighbor.containsKey(
                                                                                 map.get(itself.get(m)).getf()))
                                                                 {
@@ -277,7 +275,7 @@ public class Space
                         }
 
                 }
-                System.out.println(starNeighbor);
+                System.out.println(starNeighbor);               // TODO 输出测试结果 ，待删
                 return starNeighbor;
         }
         
